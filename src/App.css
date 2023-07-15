@@ -22,6 +22,12 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding: 30px;
+}
+ul {
+  border: 1px solid white;
+  padding: 20px;
+  list-style: none;
 }
 
 .App-link {
@@ -35,4 +41,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+.body {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 40px;
+
 }
